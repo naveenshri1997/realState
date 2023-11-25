@@ -47,7 +47,7 @@ const Search = () => {
         }
       }
     }
-    // fetch();
+    fetch();
   }, [purpose, roomsMax, bathsMax, priceMin, priceMax]) 
   const handleClick = (e) => {
     e.currentTarget.classList.toggle('show');
